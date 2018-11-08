@@ -1,0 +1,45 @@
+#ex2 {
+  background-color: #f1f1f1;
+  margin: 0px;
+  padding: 0px;
+}
+
+#ex2 h1 {
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+#ex2 h1 a {
+  text-decoration: none;
+}
+
+#ex2 #grid2 {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+#grid2 ol {
+  padding: 20px;
+  margin: 0px;
+  border-right: 1px solid black;
+}
+
+#article {
+  padding-left: 20px;
+}
+
+#ex1 {
+  background-color: #f9f9f9;
+}
+
+#ex1 #grid1 {
+  border: 5px solid pink;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+#ex1 div {
+  border: 5px solid green;
+}
