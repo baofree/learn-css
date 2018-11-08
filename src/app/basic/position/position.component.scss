@@ -1,0 +1,51 @@
+#ex1, #ex2, #ex3 {
+  background-color: #f1f1f1;
+  margin: 30px;
+}
+
+#ex2 div, #ex3 div {
+  border: 1px solid tomato;
+}
+#ex3 .large {
+  height: 100px;
+  background-color: #3e8e41;
+}
+
+#ex3 .me {
+  background-color: black;
+  color: white;
+  position: fixed;
+  right: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 30px;
+}
+
+#ex2 .grand {
+  position: relative;
+}
+
+#ex2 .parent {
+  //position: relative;
+}
+
+#ex2 .me {
+  background-color: black;
+  color: white;
+  //position: relative;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100px;
+}
+
+#ex1 div {
+  border: 1px solid tomato;
+  margin: 10px;
+}
+
+#ex1 .me {
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+}

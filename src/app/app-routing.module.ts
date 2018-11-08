@@ -3,6 +3,7 @@ import {Routes, RouterModule} from '@angular/router';
 import {W3CssDropdownsComponent} from './w3schools/dropdowns/w3-css-dropdowns.component';
 import {BoxModelComponent} from './basic/box-model/box-model.component';
 import {GridComponent} from './basic/grid/grid.component';
+import {PositionComponent} from './basic/position/position.component';
 
 const routes: Routes = [
   {
@@ -15,7 +16,8 @@ const routes: Routes = [
     path: 'basics',
     children: [
       {path: 'box-model', component: BoxModelComponent},
-      {path: 'grid', component: GridComponent}
+      {path: 'grid', component: GridComponent},
+      {path: 'position', component: PositionComponent}
     ]
   }
 ];
