@@ -4,12 +4,14 @@ import {W3CssDropdownsComponent} from './w3schools/dropdowns/w3-css-dropdowns.co
 import {BoxModelComponent} from './basic/box-model/box-model.component';
 import {GridComponent} from './basic/grid/grid.component';
 import {PositionComponent} from './basic/position/position.component';
+import {RoundedCornersComponent} from './w3schools/rounded-corners/rounded-corners.component';
 
 const routes: Routes = [
   {
     path: 'w3schools',
     children: [
-      {path: 'dropdowns', component: W3CssDropdownsComponent}
+      {path: 'dropdowns', component: W3CssDropdownsComponent},
+      {path: 'rounded-corners', component: RoundedCornersComponent}
     ]
   },
   {

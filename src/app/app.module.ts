@@ -7,6 +7,7 @@ import { W3CssDropdownsComponent } from './w3schools/dropdowns/w3-css-dropdowns.
 import { BoxModelComponent } from './basic/box-model/box-model.component';
 import { GridComponent } from './basic/grid/grid.component';
 import { PositionComponent } from './basic/position/position.component';
+import { RoundedCornersComponent } from './w3schools/rounded-corners/rounded-corners.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PositionComponent } from './basic/position/position.component';
     W3CssDropdownsComponent,
     BoxModelComponent,
     GridComponent,
-    PositionComponent
+    PositionComponent,
+    RoundedCornersComponent
   ],
   imports: [
     BrowserModule,
