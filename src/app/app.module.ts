@@ -8,6 +8,7 @@ import { BoxModelComponent } from './basic/box-model/box-model.component';
 import { GridComponent } from './basic/grid/grid.component';
 import { PositionComponent } from './basic/position/position.component';
 import { RoundedCornersComponent } from './w3schools/rounded-corners/rounded-corners.component';
+import { FloatObjectComponent} from './studio-meal/float-object/float-object.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RoundedCornersComponent } from './w3schools/rounded-corners/rounded-cor
     BoxModelComponent,
     GridComponent,
     PositionComponent,
-    RoundedCornersComponent
+    RoundedCornersComponent,
+    FloatObjectComponent
   ],
   imports: [
     BrowserModule,
