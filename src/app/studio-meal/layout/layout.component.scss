@@ -1,0 +1,89 @@
+h1, p {
+  margin: 0;
+}
+
+
+#ex3 .container {
+
+}
+
+
+#ex3 .item {
+
+}
+
+#ex3 .item-a {
+
+}
+
+#ex3 .item-b {
+
+}
+
+@media screen and (min-width: 700px) {
+  #ex3 .item {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #ex3 .item-a {
+    width: 30%;
+  }
+
+  #ex3 .item-b {
+    width: 50%;
+  }
+}
+
+
+#ex2 .container {
+  background-color: blueviolet;
+}
+
+#ex2 .container:after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+#ex2 .item {
+  float: left;
+  padding: 5%;
+}
+
+#ex2 .item-a {
+  width: 30%;
+}
+
+#ex2 .item-b {
+  width: 50%;
+}
+
+#ex1 {
+  //clear: both;
+}
+
+#ex1 .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+#ex1 .item {
+  padding: 5%;
+  display: inline-block;
+  font-size: 1rem;
+  vertical-align: top;
+}
+
+#ex1 .item-a {
+  width: 30%;
+  background-color: yellowgreen;
+}
+
+#ex1 .item-b {
+  width: 50%;
+  background-color: antiquewhite;
+}

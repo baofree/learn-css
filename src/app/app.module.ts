@@ -9,6 +9,7 @@ import { GridComponent } from './basic/grid/grid.component';
 import { PositionComponent } from './basic/position/position.component';
 import { RoundedCornersComponent } from './w3schools/rounded-corners/rounded-corners.component';
 import { FloatObjectComponent} from './studio-meal/float-object/float-object.component';
+import { LayoutComponent } from './studio-meal/layout/layout.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FloatObjectComponent} from './studio-meal/float-object/float-object.com
     GridComponent,
     PositionComponent,
     RoundedCornersComponent,
-    FloatObjectComponent
+    FloatObjectComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,

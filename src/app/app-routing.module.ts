@@ -6,6 +6,7 @@ import {GridComponent} from './basic/grid/grid.component';
 import {PositionComponent} from './basic/position/position.component';
 import {RoundedCornersComponent} from './w3schools/rounded-corners/rounded-corners.component';
 import {FloatObjectComponent} from './studio-meal/float-object/float-object.component';
+import {LayoutComponent} from './studio-meal/layout/layout.component';
 
 const routes: Routes = [
   {
@@ -26,7 +27,8 @@ const routes: Routes = [
   {
     path: 'studio-meal',
     children: [
-      {path: 'float-object', component: FloatObjectComponent}
+      {path: 'float-object', component: FloatObjectComponent},
+      {path: 'layout', component: LayoutComponent}
     ]
   },
 ];
