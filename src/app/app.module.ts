@@ -12,6 +12,8 @@ import { SmFloatObjectComponent} from './studio-meal/float-object/sm-float-objec
 import { SmLayoutComponent } from './studio-meal/layout/sm-layout.component';
 import { SmFlexComponent } from './studio-meal/flex/sm-flex.component';
 import {GridComponent} from './studio-meal/grid/grid.component';
+import { HomeComponent } from './home/home.component';
+import { SmBasicSamdComponent } from './studio-meal/basic-samd/sm-basic-samd.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import {GridComponent} from './studio-meal/grid/grid.component';
     SmFloatObjectComponent,
     SmLayoutComponent,
     SmFlexComponent,
-    GridComponent
+    GridComponent,
+    HomeComponent,
+    SmBasicSamdComponent
   ],
   imports: [
     BrowserModule,
