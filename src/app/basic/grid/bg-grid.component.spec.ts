@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BoxModelComponent } from './box-model.component';
+import { BgGridComponent } from './bg-grid.component';
 
-describe('BoxModelComponent', () => {
-  let component: BoxModelComponent;
-  let fixture: ComponentFixture<BoxModelComponent>;
+describe('BgGridComponent', () => {
+  let component: BgGridComponent;
+  let fixture: ComponentFixture<BgGridComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BoxModelComponent ]
+      declarations: [ BgGridComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BoxModelComponent);
+    fixture = TestBed.createComponent(BgGridComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

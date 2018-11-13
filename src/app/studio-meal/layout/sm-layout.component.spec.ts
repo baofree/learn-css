@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LayoutComponent } from './layout.component';
+import { SmLayoutComponent } from './sm-layout.component';
 
-describe('LayoutComponent', () => {
-  let component: LayoutComponent;
-  let fixture: ComponentFixture<LayoutComponent>;
+describe('SmLayoutComponent', () => {
+  let component: SmLayoutComponent;
+  let fixture: ComponentFixture<SmLayoutComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LayoutComponent ]
+      declarations: [ SmLayoutComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LayoutComponent);
+    fixture = TestBed.createComponent(SmLayoutComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

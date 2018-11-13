@@ -1,34 +1,38 @@
 import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 import {W3CssDropdownsComponent} from './w3schools/dropdowns/w3-css-dropdowns.component';
-import {BoxModelComponent} from './basic/box-model/box-model.component';
-import {GridComponent} from './basic/grid/grid.component';
-import {PositionComponent} from './basic/position/position.component';
-import {RoundedCornersComponent} from './w3schools/rounded-corners/rounded-corners.component';
-import {FloatObjectComponent} from './studio-meal/float-object/float-object.component';
-import {LayoutComponent} from './studio-meal/layout/layout.component';
+import {BgBoxModelComponent} from './basic/box-model/bg-box-model.component';
+import {BgGridComponent} from './basic/grid/bg-grid.component';
+import {BgPositionComponent} from './basic/position/bg-position.component';
+import {W3CssRoundedCornersComponent} from './w3schools/rounded-corners/w3-css-rounded-corners.component';
+import {SmFloatObjectComponent} from './studio-meal/float-object/sm-float-object.component';
+import {SmLayoutComponent} from './studio-meal/layout/sm-layout.component';
+import {SmFlexComponent} from './studio-meal/flex/sm-flex.component';
+import {GridComponent} from './studio-meal/grid/grid.component';
 
 const routes: Routes = [
   {
     path: 'w3schools',
     children: [
       {path: 'dropdowns', component: W3CssDropdownsComponent},
-      {path: 'rounded-corners', component: RoundedCornersComponent}
+      {path: 'rounded-corners', component: W3CssRoundedCornersComponent}
     ]
   },
   {
     path: 'basics',
     children: [
-      {path: 'box-model', component: BoxModelComponent},
-      {path: 'grid', component: GridComponent},
-      {path: 'position', component: PositionComponent}
+      {path: 'box-model', component: BgBoxModelComponent},
+      {path: 'grid', component: BgGridComponent},
+      {path: 'position', component: BgPositionComponent}
     ]
   },
   {
     path: 'studio-meal',
     children: [
-      {path: 'float-object', component: FloatObjectComponent},
-      {path: 'layout', component: LayoutComponent}
+      {path: 'float-object', component: SmFloatObjectComponent},
+      {path: 'layout', component: SmLayoutComponent},
+      {path: 'flex', component: SmFlexComponent},
+      {path: 'grid', component: GridComponent}
     ]
   },
 ];

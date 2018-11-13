@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-float-object',
-  templateUrl: './float-object.component.html',
-  styleUrls: ['./float-object.component.scss']
+  templateUrl: './sm-float-object.component.html',
+  styleUrls: ['./sm-float-object.component.scss']
 })
-export class FloatObjectComponent implements OnInit {
+export class SmFloatObjectComponent implements OnInit {
 
   constructor() { }
 

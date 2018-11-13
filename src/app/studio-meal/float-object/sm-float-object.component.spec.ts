@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FloatObjectComponent } from './float-object.component';
+import { SmFloatObjectComponent } from './sm-float-object.component';
 
-describe('FloatObjectComponent', () => {
-  let component: FloatObjectComponent;
-  let fixture: ComponentFixture<FloatObjectComponent>;
+describe('SmFloatObjectComponent', () => {
+  let component: SmFloatObjectComponent;
+  let fixture: ComponentFixture<SmFloatObjectComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FloatObjectComponent ]
+      declarations: [ SmFloatObjectComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FloatObjectComponent);
+    fixture = TestBed.createComponent(SmFloatObjectComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

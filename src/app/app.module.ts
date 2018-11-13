@@ -4,23 +4,27 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { W3CssDropdownsComponent } from './w3schools/dropdowns/w3-css-dropdowns.component';
-import { BoxModelComponent } from './basic/box-model/box-model.component';
-import { GridComponent } from './basic/grid/grid.component';
-import { PositionComponent } from './basic/position/position.component';
-import { RoundedCornersComponent } from './w3schools/rounded-corners/rounded-corners.component';
-import { FloatObjectComponent} from './studio-meal/float-object/float-object.component';
-import { LayoutComponent } from './studio-meal/layout/layout.component';
+import { BgBoxModelComponent } from './basic/box-model/bg-box-model.component';
+import { BgGridComponent } from './basic/grid/bg-grid.component';
+import { BgPositionComponent } from './basic/position/bg-position.component';
+import { W3CssRoundedCornersComponent } from './w3schools/rounded-corners/w3-css-rounded-corners.component';
+import { SmFloatObjectComponent} from './studio-meal/float-object/sm-float-object.component';
+import { SmLayoutComponent } from './studio-meal/layout/sm-layout.component';
+import { SmFlexComponent } from './studio-meal/flex/sm-flex.component';
+import {GridComponent} from './studio-meal/grid/grid.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     W3CssDropdownsComponent,
-    BoxModelComponent,
-    GridComponent,
-    PositionComponent,
-    RoundedCornersComponent,
-    FloatObjectComponent,
-    LayoutComponent
+    BgBoxModelComponent,
+    BgGridComponent,
+    BgPositionComponent,
+    W3CssRoundedCornersComponent,
+    SmFloatObjectComponent,
+    SmLayoutComponent,
+    SmFlexComponent,
+    GridComponent
   ],
   imports: [
     BrowserModule,

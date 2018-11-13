@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PositionComponent } from './position.component';
+import { BgPositionComponent } from './bg-position.component';
 
-describe('PositionComponent', () => {
-  let component: PositionComponent;
-  let fixture: ComponentFixture<PositionComponent>;
+describe('BgPositionComponent', () => {
+  let component: BgPositionComponent;
+  let fixture: ComponentFixture<BgPositionComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PositionComponent ]
+      declarations: [ BgPositionComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PositionComponent);
+    fixture = TestBed.createComponent(BgPositionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
