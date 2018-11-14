@@ -11,6 +11,7 @@ import {SmLayoutComponent} from './studio-meal/layout/sm-layout.component';
 import {SmFlexComponent} from './studio-meal/flex/sm-flex.component';
 import {GridComponent} from './studio-meal/grid/grid.component';
 import {SmBasicSamdComponent} from './studio-meal/basic-samd/sm-basic-samd.component';
+import {SmBasicSamdTwoComponent} from './studio-meal/basic-samd-two/sm-basic-samd-two.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -36,7 +37,8 @@ const routes: Routes = [
       {path: 'layout', component: SmLayoutComponent},
       {path: 'flex', component: SmFlexComponent},
       {path: 'grid', component: GridComponent},
-      {path: '3d1', component: SmBasicSamdComponent}
+      {path: '3d1', component: SmBasicSamdComponent},
+      {path: '3d2', component: SmBasicSamdTwoComponent}
     ]
   },
 ];

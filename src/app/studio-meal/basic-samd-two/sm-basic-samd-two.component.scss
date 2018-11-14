@@ -1,0 +1,64 @@
+.stage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: powderblue;
+  perspective: 600px;
+  font-size: 3rem;
+}
+
+@keyframes spin {
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.carousel {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  animation: spin 15s infinite linear;
+}
+
+.panel {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid black;
+}
+
+$translateZval: 173px;
+
+.panel:nth-child(1) {
+  transform: rotateY(0deg) translateZ($translateZval);
+
+}
+
+.panel:nth-child(2) {
+  transform: rotateY(60deg) translateZ($translateZval);
+}
+
+.panel:nth-child(3) {
+  transform: rotateY(120deg) translateZ($translateZval);
+}
+
+.panel:nth-child(4) {
+  transform: rotateY(180deg) translateZ($translateZval);
+}
+
+.panel:nth-child(5) {
+  transform: rotateY(240deg) translateZ($translateZval);
+}
+
+.panel:nth-child(6) {
+  transform: rotateY(300deg) translateZ($translateZval);
+}

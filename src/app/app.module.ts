@@ -14,6 +14,7 @@ import { SmFlexComponent } from './studio-meal/flex/sm-flex.component';
 import {GridComponent} from './studio-meal/grid/grid.component';
 import { HomeComponent } from './home/home.component';
 import { SmBasicSamdComponent } from './studio-meal/basic-samd/sm-basic-samd.component';
+import { SmBasicSamdTwoComponent } from './studio-meal/basic-samd-two/sm-basic-samd-two.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SmBasicSamdComponent } from './studio-meal/basic-samd/sm-basic-samd.com
     SmFlexComponent,
     GridComponent,
     HomeComponent,
-    SmBasicSamdComponent
+    SmBasicSamdComponent,
+    SmBasicSamdTwoComponent
   ],
   imports: [
     BrowserModule,
