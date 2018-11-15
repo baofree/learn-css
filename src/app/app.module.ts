@@ -15,6 +15,7 @@ import {GridComponent} from './studio-meal/grid/grid.component';
 import { HomeComponent } from './home/home.component';
 import { SmBasicSamdComponent } from './studio-meal/basic-samd/sm-basic-samd.component';
 import { SmBasicSamdTwoComponent } from './studio-meal/basic-samd-two/sm-basic-samd-two.component';
+import { SeTranslucenceBorderComponent } from './secret/translucence-border/se-translucence-border.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { SmBasicSamdTwoComponent } from './studio-meal/basic-samd-two/sm-basic-s
     GridComponent,
     HomeComponent,
     SmBasicSamdComponent,
-    SmBasicSamdTwoComponent
+    SmBasicSamdTwoComponent,
+    SeTranslucenceBorderComponent
   ],
   imports: [
     BrowserModule,

@@ -12,6 +12,7 @@ import {SmFlexComponent} from './studio-meal/flex/sm-flex.component';
 import {GridComponent} from './studio-meal/grid/grid.component';
 import {SmBasicSamdComponent} from './studio-meal/basic-samd/sm-basic-samd.component';
 import {SmBasicSamdTwoComponent} from './studio-meal/basic-samd-two/sm-basic-samd-two.component';
+import {SeTranslucenceBorderComponent} from './secret/translucence-border/se-translucence-border.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -41,6 +42,12 @@ const routes: Routes = [
       {path: '3d2', component: SmBasicSamdTwoComponent}
     ]
   },
+  {
+    path: 'secret',
+    children: [
+      {path: 'translucence-border', component: SeTranslucenceBorderComponent}
+    ]
+  }
 ];
 
 @NgModule({
