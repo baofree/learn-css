@@ -13,6 +13,7 @@ import {GridComponent} from './studio-meal/grid/grid.component';
 import {SmBasicSamdComponent} from './studio-meal/basic-samd/sm-basic-samd.component';
 import {SmBasicSamdTwoComponent} from './studio-meal/basic-samd-two/sm-basic-samd-two.component';
 import {SeTranslucenceBorderComponent} from './secret/translucence-border/se-translucence-border.component';
+import {SeMultipleBorderComponent} from './secret/se-multiple-border/se-multiple-border.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -45,7 +46,8 @@ const routes: Routes = [
   {
     path: 'secret',
     children: [
-      {path: 'translucence-border', component: SeTranslucenceBorderComponent}
+      {path: 'translucence-border', component: SeTranslucenceBorderComponent},
+      {path: 'multiple-border', component: SeMultipleBorderComponent}
     ]
   }
 ];

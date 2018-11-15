@@ -16,6 +16,7 @@ import { HomeComponent } from './home/home.component';
 import { SmBasicSamdComponent } from './studio-meal/basic-samd/sm-basic-samd.component';
 import { SmBasicSamdTwoComponent } from './studio-meal/basic-samd-two/sm-basic-samd-two.component';
 import { SeTranslucenceBorderComponent } from './secret/translucence-border/se-translucence-border.component';
+import { SeMultipleBorderComponent } from './secret/se-multiple-border/se-multiple-border.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { SeTranslucenceBorderComponent } from './secret/translucence-border/se-t
     HomeComponent,
     SmBasicSamdComponent,
     SmBasicSamdTwoComponent,
-    SeTranslucenceBorderComponent
+    SeTranslucenceBorderComponent,
+    SeMultipleBorderComponent
   ],
   imports: [
     BrowserModule,
