@@ -1,0 +1,43 @@
+.simple {
+  margin: 2em auto 0;
+  padding: 1em;
+  width: 15em;
+  background: yellowgreen;
+}
+
+.ex1 {
+  box-shadow: 10px 10px;
+}
+
+.ex2 {
+  box-shadow: 10px 10px gray;
+}
+
+.ex3 {
+  box-shadow: 10px 10px 5px gold;
+}
+
+.ex4 {
+  box-shadow: 5px 5px 10px sienna;
+}
+
+
+.card {
+  width: 20em;
+  text-align: center;
+  margin: 2em auto 0;
+  background-color: #f1f1f1;
+  //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1.1em;
+  font-size: 4em;
+}
+
+.container {
+  padding: 1.2em;
+}

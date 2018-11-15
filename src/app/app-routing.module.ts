@@ -14,6 +14,7 @@ import {SmBasicSamdComponent} from './studio-meal/basic-samd/sm-basic-samd.compo
 import {SmBasicSamdTwoComponent} from './studio-meal/basic-samd-two/sm-basic-samd-two.component';
 import {SeTranslucenceBorderComponent} from './secret/translucence-border/se-translucence-border.component';
 import {SeMultipleBorderComponent} from './secret/se-multiple-border/se-multiple-border.component';
+import {W3BoxShadowComponent} from './w3schools/w3-box-shadow/w3-box-shadow.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -21,7 +22,8 @@ const routes: Routes = [
     path: 'w3schools',
     children: [
       {path: 'dropdowns', component: W3CssDropdownsComponent},
-      {path: 'rounded-corners', component: W3CssRoundedCornersComponent}
+      {path: 'rounded-corners', component: W3CssRoundedCornersComponent},
+      {path: 'box-shadow', component: W3BoxShadowComponent}
     ]
   },
   {
