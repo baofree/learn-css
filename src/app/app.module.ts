@@ -18,6 +18,8 @@ import { SmBasicSamdTwoComponent } from './studio-meal/basic-samd-two/sm-basic-s
 import { SeTranslucenceBorderComponent } from './secret/translucence-border/se-translucence-border.component';
 import { SeMultipleBorderComponent } from './secret/se-multiple-border/se-multiple-border.component';
 import { W3BoxShadowComponent } from './w3schools/w3-box-shadow/w3-box-shadow.component';
+import { SeBackgroundOriginComponent } from './secret/se-background-origin/se-background-origin.component';
+import { SeInnerRoundingComponent } from './secret/se-inner-rounding/se-inner-rounding.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { W3BoxShadowComponent } from './w3schools/w3-box-shadow/w3-box-shadow.co
     SmBasicSamdTwoComponent,
     SeTranslucenceBorderComponent,
     SeMultipleBorderComponent,
-    W3BoxShadowComponent
+    W3BoxShadowComponent,
+    SeBackgroundOriginComponent,
+    SeInnerRoundingComponent
   ],
   imports: [
     BrowserModule,

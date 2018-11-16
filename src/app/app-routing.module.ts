@@ -15,6 +15,8 @@ import {SmBasicSamdTwoComponent} from './studio-meal/basic-samd-two/sm-basic-sam
 import {SeTranslucenceBorderComponent} from './secret/translucence-border/se-translucence-border.component';
 import {SeMultipleBorderComponent} from './secret/se-multiple-border/se-multiple-border.component';
 import {W3BoxShadowComponent} from './w3schools/w3-box-shadow/w3-box-shadow.component';
+import {SeBackgroundOriginComponent} from './secret/se-background-origin/se-background-origin.component';
+import {SeInnerRoundingComponent} from './secret/se-inner-rounding/se-inner-rounding.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -49,7 +51,9 @@ const routes: Routes = [
     path: 'secret',
     children: [
       {path: 'translucence-border', component: SeTranslucenceBorderComponent},
-      {path: 'multiple-border', component: SeMultipleBorderComponent}
+      {path: 'multiple-border', component: SeMultipleBorderComponent},
+      {path: 'background-origin', component: SeBackgroundOriginComponent},
+      {path: 'inner-rounding', component: SeInnerRoundingComponent}
     ]
   }
 ];
