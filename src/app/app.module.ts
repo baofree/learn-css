@@ -21,6 +21,7 @@ import { W3BoxShadowComponent } from './w3schools/w3-box-shadow/w3-box-shadow.co
 import { SeBackgroundOriginComponent } from './secret/se-background-origin/se-background-origin.component';
 import { SeInnerRoundingComponent } from './secret/se-inner-rounding/se-inner-rounding.component';
 import { SeHorizontalStripesComponent } from './secret/se-horizontal-stripes/se-horizontal-stripes.component';
+import { SeVerticalStripesComponent } from './secret/se-vertical-stripes/se-vertical-stripes.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { SeHorizontalStripesComponent } from './secret/se-horizontal-stripes/se-
     W3BoxShadowComponent,
     SeBackgroundOriginComponent,
     SeInnerRoundingComponent,
-    SeHorizontalStripesComponent
+    SeHorizontalStripesComponent,
+    SeVerticalStripesComponent
   ],
   imports: [
     BrowserModule,
