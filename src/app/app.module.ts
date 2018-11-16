@@ -20,6 +20,7 @@ import { SeMultipleBorderComponent } from './secret/se-multiple-border/se-multip
 import { W3BoxShadowComponent } from './w3schools/w3-box-shadow/w3-box-shadow.component';
 import { SeBackgroundOriginComponent } from './secret/se-background-origin/se-background-origin.component';
 import { SeInnerRoundingComponent } from './secret/se-inner-rounding/se-inner-rounding.component';
+import { SeHorizontalStripesComponent } from './secret/se-horizontal-stripes/se-horizontal-stripes.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { SeInnerRoundingComponent } from './secret/se-inner-rounding/se-inner-ro
     SeMultipleBorderComponent,
     W3BoxShadowComponent,
     SeBackgroundOriginComponent,
-    SeInnerRoundingComponent
+    SeInnerRoundingComponent,
+    SeHorizontalStripesComponent
   ],
   imports: [
     BrowserModule,
