@@ -19,6 +19,7 @@ import {SeBackgroundOriginComponent} from './secret/se-background-origin/se-back
 import {SeInnerRoundingComponent} from './secret/se-inner-rounding/se-inner-rounding.component';
 import {SeHorizontalStripesComponent} from './secret/se-horizontal-stripes/se-horizontal-stripes.component';
 import {SeVerticalStripesComponent} from './secret/se-vertical-stripes/se-vertical-stripes.component';
+import {SeDiagonalStripesComponent} from './secret/se-diagonal-stripes/se-diagonal-stripes.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -58,6 +59,7 @@ const routes: Routes = [
       {path: 'inner-rounding', component: SeInnerRoundingComponent},
       {path: 'horizontal-stripes', component: SeHorizontalStripesComponent},
       {path: 'vertical-stripes', component: SeVerticalStripesComponent},
+      {path: 'diagonal-stripes', component: SeDiagonalStripesComponent}
     ]
   }
 ];

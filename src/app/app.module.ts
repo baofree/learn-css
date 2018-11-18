@@ -22,6 +22,7 @@ import { SeBackgroundOriginComponent } from './secret/se-background-origin/se-ba
 import { SeInnerRoundingComponent } from './secret/se-inner-rounding/se-inner-rounding.component';
 import { SeHorizontalStripesComponent } from './secret/se-horizontal-stripes/se-horizontal-stripes.component';
 import { SeVerticalStripesComponent } from './secret/se-vertical-stripes/se-vertical-stripes.component';
+import { SeDiagonalStripesComponent } from './secret/se-diagonal-stripes/se-diagonal-stripes.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { SeVerticalStripesComponent } from './secret/se-vertical-stripes/se-vert
     SeBackgroundOriginComponent,
     SeInnerRoundingComponent,
     SeHorizontalStripesComponent,
-    SeVerticalStripesComponent
+    SeVerticalStripesComponent,
+    SeDiagonalStripesComponent
   ],
   imports: [
     BrowserModule,
