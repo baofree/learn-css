@@ -23,6 +23,7 @@ import { SeInnerRoundingComponent } from './secret/se-inner-rounding/se-inner-ro
 import { SeHorizontalStripesComponent } from './secret/se-horizontal-stripes/se-horizontal-stripes.component';
 import { SeVerticalStripesComponent } from './secret/se-vertical-stripes/se-vertical-stripes.component';
 import { SeDiagonalStripesComponent } from './secret/se-diagonal-stripes/se-diagonal-stripes.component';
+import { SeEllipseComponent } from './secret/se-ellipse/se-ellipse.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { SeDiagonalStripesComponent } from './secret/se-diagonal-stripes/se-diag
     SeInnerRoundingComponent,
     SeHorizontalStripesComponent,
     SeVerticalStripesComponent,
-    SeDiagonalStripesComponent
+    SeDiagonalStripesComponent,
+    SeEllipseComponent
   ],
   imports: [
     BrowserModule,

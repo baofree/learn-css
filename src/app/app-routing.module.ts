@@ -20,6 +20,7 @@ import {SeInnerRoundingComponent} from './secret/se-inner-rounding/se-inner-roun
 import {SeHorizontalStripesComponent} from './secret/se-horizontal-stripes/se-horizontal-stripes.component';
 import {SeVerticalStripesComponent} from './secret/se-vertical-stripes/se-vertical-stripes.component';
 import {SeDiagonalStripesComponent} from './secret/se-diagonal-stripes/se-diagonal-stripes.component';
+import {SeEllipseComponent} from './secret/se-ellipse/se-ellipse.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -59,7 +60,8 @@ const routes: Routes = [
       {path: 'inner-rounding', component: SeInnerRoundingComponent},
       {path: 'horizontal-stripes', component: SeHorizontalStripesComponent},
       {path: 'vertical-stripes', component: SeVerticalStripesComponent},
-      {path: 'diagonal-stripes', component: SeDiagonalStripesComponent}
+      {path: 'diagonal-stripes', component: SeDiagonalStripesComponent},
+      {path: 'ellipse', component: SeEllipseComponent}
     ]
   }
 ];
