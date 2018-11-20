@@ -21,6 +21,7 @@ import {SeHorizontalStripesComponent} from './secret/se-horizontal-stripes/se-ho
 import {SeVerticalStripesComponent} from './secret/se-vertical-stripes/se-vertical-stripes.component';
 import {SeDiagonalStripesComponent} from './secret/se-diagonal-stripes/se-diagonal-stripes.component';
 import {SeEllipseComponent} from './secret/se-ellipse/se-ellipse.component';
+import {SeHalfEllipseComponent} from './secret/se-half-ellipse/se-half-ellipse.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -61,7 +62,8 @@ const routes: Routes = [
       {path: 'horizontal-stripes', component: SeHorizontalStripesComponent},
       {path: 'vertical-stripes', component: SeVerticalStripesComponent},
       {path: 'diagonal-stripes', component: SeDiagonalStripesComponent},
-      {path: 'ellipse', component: SeEllipseComponent}
+      {path: 'ellipse', component: SeEllipseComponent},
+      {path: 'half-ellipse', component: SeHalfEllipseComponent}
     ]
   }
 ];
