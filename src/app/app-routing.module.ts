@@ -22,6 +22,7 @@ import {SeVerticalStripesComponent} from './secret/se-vertical-stripes/se-vertic
 import {SeDiagonalStripesComponent} from './secret/se-diagonal-stripes/se-diagonal-stripes.component';
 import {SeEllipseComponent} from './secret/se-ellipse/se-ellipse.component';
 import {SeHalfEllipseComponent} from './secret/se-half-ellipse/se-half-ellipse.component';
+import {SeParallelogramsComponent} from './secret/se-parallelograms/se-parallelograms.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -63,7 +64,8 @@ const routes: Routes = [
       {path: 'vertical-stripes', component: SeVerticalStripesComponent},
       {path: 'diagonal-stripes', component: SeDiagonalStripesComponent},
       {path: 'ellipse', component: SeEllipseComponent},
-      {path: 'half-ellipse', component: SeHalfEllipseComponent}
+      {path: 'half-ellipse', component: SeHalfEllipseComponent},
+      {path: 'parallelograms', component: SeParallelogramsComponent}
     ]
   }
 ];

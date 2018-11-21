@@ -25,6 +25,7 @@ import { SeVerticalStripesComponent } from './secret/se-vertical-stripes/se-vert
 import { SeDiagonalStripesComponent } from './secret/se-diagonal-stripes/se-diagonal-stripes.component';
 import { SeEllipseComponent } from './secret/se-ellipse/se-ellipse.component';
 import { SeHalfEllipseComponent } from './secret/se-half-ellipse/se-half-ellipse.component';
+import { SeParallelogramsComponent } from './secret/se-parallelograms/se-parallelograms.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { SeHalfEllipseComponent } from './secret/se-half-ellipse/se-half-ellipse
     SeVerticalStripesComponent,
     SeDiagonalStripesComponent,
     SeEllipseComponent,
-    SeHalfEllipseComponent
+    SeHalfEllipseComponent,
+    SeParallelogramsComponent
   ],
   imports: [
     BrowserModule,
