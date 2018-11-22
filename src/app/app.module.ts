@@ -26,6 +26,8 @@ import { SeDiagonalStripesComponent } from './secret/se-diagonal-stripes/se-diag
 import { SeEllipseComponent } from './secret/se-ellipse/se-ellipse.component';
 import { SeHalfEllipseComponent } from './secret/se-half-ellipse/se-half-ellipse.component';
 import { SeParallelogramsComponent } from './secret/se-parallelograms/se-parallelograms.component';
+import { SeNativeModalComponent } from './secret/se-native-modal/se-native-modal.component';
+import { SeDimmingBoxShadowComponent } from './secret/se-dimming-box-shadow/se-dimming-box-shadow.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +54,9 @@ import { SeParallelogramsComponent } from './secret/se-parallelograms/se-paralle
     SeDiagonalStripesComponent,
     SeEllipseComponent,
     SeHalfEllipseComponent,
-    SeParallelogramsComponent
+    SeParallelogramsComponent,
+    SeNativeModalComponent,
+    SeDimmingBoxShadowComponent
   ],
   imports: [
     BrowserModule,

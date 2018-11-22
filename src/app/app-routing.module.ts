@@ -23,6 +23,8 @@ import {SeDiagonalStripesComponent} from './secret/se-diagonal-stripes/se-diagon
 import {SeEllipseComponent} from './secret/se-ellipse/se-ellipse.component';
 import {SeHalfEllipseComponent} from './secret/se-half-ellipse/se-half-ellipse.component';
 import {SeParallelogramsComponent} from './secret/se-parallelograms/se-parallelograms.component';
+import {SeDimmingBoxShadowComponent} from './secret/se-dimming-box-shadow/se-dimming-box-shadow.component';
+import {SeNativeModalComponent} from './secret/se-native-modal/se-native-modal.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -65,7 +67,9 @@ const routes: Routes = [
       {path: 'diagonal-stripes', component: SeDiagonalStripesComponent},
       {path: 'ellipse', component: SeEllipseComponent},
       {path: 'half-ellipse', component: SeHalfEllipseComponent},
-      {path: 'parallelograms', component: SeParallelogramsComponent}
+      {path: 'parallelograms', component: SeParallelogramsComponent},
+      {path: 'dimming-box-shadow', component: SeDimmingBoxShadowComponent},
+      {path: 'native-model', component: SeNativeModalComponent},
     ]
   }
 ];
