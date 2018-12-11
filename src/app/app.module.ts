@@ -28,6 +28,8 @@ import { SeHalfEllipseComponent } from './secret/se-half-ellipse/se-half-ellipse
 import { SeParallelogramsComponent } from './secret/se-parallelograms/se-parallelograms.component';
 import { SeNativeModalComponent } from './secret/se-native-modal/se-native-modal.component';
 import { SeDimmingBoxShadowComponent } from './secret/se-dimming-box-shadow/se-dimming-box-shadow.component';
+import { FbDemo1Component } from './flexbox/fb-demo1/fb-demo1.component';
+import { FbDemo2Component } from './flexbox/fb-demo2/fb-demo2.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +58,9 @@ import { SeDimmingBoxShadowComponent } from './secret/se-dimming-box-shadow/se-d
     SeHalfEllipseComponent,
     SeParallelogramsComponent,
     SeNativeModalComponent,
-    SeDimmingBoxShadowComponent
+    SeDimmingBoxShadowComponent,
+    FbDemo1Component,
+    FbDemo2Component
   ],
   imports: [
     BrowserModule,

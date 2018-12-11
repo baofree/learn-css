@@ -1,0 +1,89 @@
+.container {
+  border: 6px solid black;
+  display: flex;
+  //display: inline-flex;
+
+  //flex-direction: column;
+  //flex-direction: row;
+
+  //flex-wrap: wrap;
+  //flex-wrap: nowrap;
+
+  //flex-flow: row-reverse wrap;
+  //flex-flow: column-reverse wrap-reverse;
+
+  //justify-content: center;
+  //justify-content: flex-end;
+  //justify-content: space-between;
+  //justify-content: space-around;
+  //justify-content: space-evenly;
+
+  //align-items: stretch;
+  //align-items: flex-start;
+  //align-items: flex-end;
+  //align-items: center;
+  //align-items: baseline;
+
+  //align-content: stretch;
+  //align-content: flex-start;
+  //align-content: flex-end;
+  //align-content: center;
+  //align-content: space-between;
+  //align-content: space-around;
+
+  //height: 800px;
+  //
+}
+
+.flex-item {
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  //flex-grow: 1;
+  //flex-shrink: 1;
+}
+
+.item-1 {
+  background-color: #B3BF35;
+  //flex-grow: 1;
+
+}
+
+.item-2 {
+  background-color: #B95F21;
+}
+
+.item-3 {
+  background-color: #1C4C56;
+  //order: -1;
+}
+
+.item-4 {
+  background-color: #CfB276;
+  //order: 2;
+  //flex-shrink: 4;
+}
+
+.item-5 {
+  background-color: #6B0803;
+}
+
+.item-6 {
+  background-color: darkorange;
+}
+
+.item-7 {
+  background-color: indigo;
+  //flex-grow: 1;
+}
+
+.item-8 {
+  background-color: lightblue;
+}
+
+
+.item-9 {
+  background-color: cornflowerblue;
+}
+

@@ -25,6 +25,8 @@ import {SeHalfEllipseComponent} from './secret/se-half-ellipse/se-half-ellipse.c
 import {SeParallelogramsComponent} from './secret/se-parallelograms/se-parallelograms.component';
 import {SeDimmingBoxShadowComponent} from './secret/se-dimming-box-shadow/se-dimming-box-shadow.component';
 import {SeNativeModalComponent} from './secret/se-native-modal/se-native-modal.component';
+import {FbDemo1Component} from './flexbox/fb-demo1/fb-demo1.component';
+import {FbDemo2Component} from './flexbox/fb-demo2/fb-demo2.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -70,6 +72,13 @@ const routes: Routes = [
       {path: 'parallelograms', component: SeParallelogramsComponent},
       {path: 'dimming-box-shadow', component: SeDimmingBoxShadowComponent},
       {path: 'native-model', component: SeNativeModalComponent},
+    ]
+  },
+  {
+    path: 'flexbox',
+    children: [
+      {path: 'demo1', component: FbDemo1Component},
+      {path: 'demo2', component: FbDemo2Component}
     ]
   }
 ];
