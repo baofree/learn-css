@@ -27,6 +27,9 @@ import {SeDimmingBoxShadowComponent} from './secret/se-dimming-box-shadow/se-dim
 import {SeNativeModalComponent} from './secret/se-native-modal/se-native-modal.component';
 import {FbDemo1Component} from './flexbox/fb-demo1/fb-demo1.component';
 import {FbDemo2Component} from './flexbox/fb-demo2/fb-demo2.component';
+import {FbDemo3Component} from './flexbox/fb-demo3/fb-demo3.component';
+import {FbDemo4Component} from './flexbox/fb-demo4/fb-demo4.component';
+import {FbDemo5Component} from './flexbox/fb-demo5/fb-demo5.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -78,7 +81,10 @@ const routes: Routes = [
     path: 'flexbox',
     children: [
       {path: 'demo1', component: FbDemo1Component},
-      {path: 'demo2', component: FbDemo2Component}
+      {path: 'demo2', component: FbDemo2Component},
+      {path: 'demo3', component: FbDemo3Component},
+      {path: 'demo4', component: FbDemo4Component},
+      {path: 'demo5', component: FbDemo5Component}
     ]
   }
 ];

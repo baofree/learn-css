@@ -30,6 +30,9 @@ import { SeNativeModalComponent } from './secret/se-native-modal/se-native-modal
 import { SeDimmingBoxShadowComponent } from './secret/se-dimming-box-shadow/se-dimming-box-shadow.component';
 import { FbDemo1Component } from './flexbox/fb-demo1/fb-demo1.component';
 import { FbDemo2Component } from './flexbox/fb-demo2/fb-demo2.component';
+import { FbDemo3Component } from './flexbox/fb-demo3/fb-demo3.component';
+import { FbDemo4Component } from './flexbox/fb-demo4/fb-demo4.component';
+import { FbDemo5Component } from './flexbox/fb-demo5/fb-demo5.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +63,10 @@ import { FbDemo2Component } from './flexbox/fb-demo2/fb-demo2.component';
     SeNativeModalComponent,
     SeDimmingBoxShadowComponent,
     FbDemo1Component,
-    FbDemo2Component
+    FbDemo2Component,
+    FbDemo3Component,
+    FbDemo4Component,
+    FbDemo5Component
   ],
   imports: [
     BrowserModule,
