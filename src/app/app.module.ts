@@ -33,6 +33,7 @@ import { FbDemo2Component } from './flexbox/fb-demo2/fb-demo2.component';
 import { FbDemo3Component } from './flexbox/fb-demo3/fb-demo3.component';
 import { FbDemo4Component } from './flexbox/fb-demo4/fb-demo4.component';
 import { FbDemo5Component } from './flexbox/fb-demo5/fb-demo5.component';
+import { NavbarComponent } from './bootstrap/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -66,7 +67,8 @@ import { FbDemo5Component } from './flexbox/fb-demo5/fb-demo5.component';
     FbDemo2Component,
     FbDemo3Component,
     FbDemo4Component,
-    FbDemo5Component
+    FbDemo5Component,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

@@ -30,6 +30,7 @@ import {FbDemo2Component} from './flexbox/fb-demo2/fb-demo2.component';
 import {FbDemo3Component} from './flexbox/fb-demo3/fb-demo3.component';
 import {FbDemo4Component} from './flexbox/fb-demo4/fb-demo4.component';
 import {FbDemo5Component} from './flexbox/fb-demo5/fb-demo5.component';
+import {NavbarComponent} from './bootstrap/navbar/navbar.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -85,6 +86,12 @@ const routes: Routes = [
       {path: 'demo3', component: FbDemo3Component},
       {path: 'demo4', component: FbDemo4Component},
       {path: 'demo5', component: FbDemo5Component}
+    ]
+  },
+  {
+    path: 'bootstrap',
+    children: [
+      {path: 'navbar', component: NavbarComponent}
     ]
   }
 ];
