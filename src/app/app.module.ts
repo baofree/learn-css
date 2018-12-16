@@ -35,6 +35,7 @@ import { FbDemo4Component } from './flexbox/fb-demo4/fb-demo4.component';
 import { FbDemo5Component } from './flexbox/fb-demo5/fb-demo5.component';
 import { NavbarComponent } from './bootstrap/navbar/navbar.component';
 import { BtLandingComponent } from './bootstrap/bt-landing/bt-landing.component';
+import { BtSidebarComponent } from './bootstrap/bt-sidebar/bt-sidebar.component';
 
 @NgModule({
   declarations: [
@@ -70,7 +71,8 @@ import { BtLandingComponent } from './bootstrap/bt-landing/bt-landing.component'
     FbDemo4Component,
     FbDemo5Component,
     NavbarComponent,
-    BtLandingComponent
+    BtLandingComponent,
+    BtSidebarComponent
   ],
   imports: [
     BrowserModule,

@@ -32,6 +32,7 @@ import {FbDemo4Component} from './flexbox/fb-demo4/fb-demo4.component';
 import {FbDemo5Component} from './flexbox/fb-demo5/fb-demo5.component';
 import {NavbarComponent} from './bootstrap/navbar/navbar.component';
 import {BtLandingComponent} from './bootstrap/bt-landing/bt-landing.component';
+import {BtSidebarComponent} from './bootstrap/bt-sidebar/bt-sidebar.component';
 
 
 const routes: Routes = [
@@ -94,7 +95,8 @@ const routes: Routes = [
     path: 'bootstrap',
     children: [
       {path: 'navbar', component: NavbarComponent},
-      {path: 'landing', component: BtLandingComponent}
+      {path: 'landing', component: BtLandingComponent},
+      {path: 'sidebar', component: BtSidebarComponent},
     ]
   }
 ];
@@ -105,3 +107,4 @@ const routes: Routes = [
 })
 export class AppRoutingModule {
 }
+
