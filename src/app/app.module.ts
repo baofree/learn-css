@@ -34,6 +34,7 @@ import { FbDemo3Component } from './flexbox/fb-demo3/fb-demo3.component';
 import { FbDemo4Component } from './flexbox/fb-demo4/fb-demo4.component';
 import { FbDemo5Component } from './flexbox/fb-demo5/fb-demo5.component';
 import { NavbarComponent } from './bootstrap/navbar/navbar.component';
+import { BtLandingComponent } from './bootstrap/bt-landing/bt-landing.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +69,8 @@ import { NavbarComponent } from './bootstrap/navbar/navbar.component';
     FbDemo3Component,
     FbDemo4Component,
     FbDemo5Component,
-    NavbarComponent
+    NavbarComponent,
+    BtLandingComponent
   ],
   imports: [
     BrowserModule,
